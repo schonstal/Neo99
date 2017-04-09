@@ -1,8 +1,20 @@
-<h1>Welcome to my Page!</h1>
+<center>
+  <h1>Welcome to my Page!</h1>
 
-{{#if (gt count 0)}}
-  <div>{{count}}</div>
-{{/if}}
+  <table border="2">
+    <td>
+      <a href="#" {{action "increment"}}>Enter</a>
+    </td>
+    <td>
+      {{#if (gt count 5)}}
+        <a href="#" {{action "purchase"}}>Sign My Guestbook</a>
+      {{/if}}
+    </td>
+  </table>
 
-<br>
-<a href="#" {{action "increment"}}>Enter</a>
+  Visits: {{count}}
+  <br>
+  Guestbook Entries: {{generators}}
+</center>
+
+<span class="footer"></span>
