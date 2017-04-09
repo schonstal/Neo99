@@ -1,0 +1,13 @@
+html {
+  background-color: #000;
+  color: #f00;
+}
+
+.footer {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/2/22/Animated_fire_by_nevit.gif) repeat-x bottom center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 200px;
+  background-size: contain;
+}
