@@ -1,7 +1,6 @@
 # neo99
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A game.
 
 ## Prerequisites
 
@@ -12,13 +11,13 @@ You will need the following things properly installed on your computer.
 * [Bower](https://bower.io/)
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+* [Yarn](https://yarnpkg.com/en/)
 
 ## Installation
 
 * `git clone <repository-url>` this repository
 * `cd neo99`
-* `npm install`
-* `bower install`
+* `yarn`
 
 ## Running / Development
 
@@ -41,7 +40,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+Put it up on geocities.
 
 ## Further Reading / Useful Links
 
